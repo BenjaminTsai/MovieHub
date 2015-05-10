@@ -1,6 +1,6 @@
 # Rotten Tomatoes
 
-This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON).
+This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON) and the first assignment of Codepath's iOS bootcamp.
 
 Time spent: `8.25` hours
 
