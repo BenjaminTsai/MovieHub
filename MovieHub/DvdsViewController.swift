@@ -14,12 +14,12 @@ class DvdsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
 
-    let controllerHelper = MovieControllerHelper()
-    var refreshControl: UIRefreshControl!
-    var errorView: UIView? = nil
+    private let controllerHelper = MovieControllerHelper()
+    private var refreshControl: UIRefreshControl!
+    private var errorView: UIView? = nil
     
-    var allDvds: [NSDictionary] = NSArray() as! [NSDictionary]
-    var dvds: [NSDictionary] = NSArray() as! [NSDictionary]
+    private var allDvds: [NSDictionary] = NSArray() as! [NSDictionary]
+    private var dvds: [NSDictionary] = NSArray() as! [NSDictionary]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,13 +122,13 @@ class DvdsViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     // Other stuff
     
-    func onRefresh() {
+    private func onRefresh() {
         loadDvds({
             self.refreshControl.endRefreshing()
         })
     }
     
-    func loadDvds(onLoad:()->()) {
+    private func loadDvds(onLoad:()->()) {
         errorView?.removeFromSuperview()
         errorView = nil
         

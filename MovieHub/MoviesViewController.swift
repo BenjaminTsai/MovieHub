@@ -16,11 +16,11 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
 
-    let controllerHelper = MovieControllerHelper()
-    var tableRefreshControl: UIRefreshControl!
-    var gridRefreshControl: UIRefreshControl!
-    var errorView: UIView? = nil
-    var movies = NSArray()
+    private let controllerHelper = MovieControllerHelper()
+    private var tableRefreshControl: UIRefreshControl!
+    private var gridRefreshControl: UIRefreshControl!
+    private var errorView: UIView? = nil
+    private var movies = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -136,14 +136,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
     }
     
-    func onRefresh() {
+    private func onRefresh() {
         loadMovies({
             self.tableRefreshControl.endRefreshing()
             self.gridRefreshControl.endRefreshing()
         })
     }
     
-    func loadMovies(onLoad:()->()) {
+    private func loadMovies(onLoad:()->()) {
         errorView?.removeFromSuperview()
         errorView = nil
         

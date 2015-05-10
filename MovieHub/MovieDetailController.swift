@@ -15,7 +15,7 @@ class MovieDetailController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var moviePoster: UIImageView!
     @IBOutlet weak var tableView: UITableView!
 
-    let controllerHelper = MovieControllerHelper()
+    private let controllerHelper = MovieControllerHelper()
     var detail: NSDictionary = NSDictionary()
     
     override func viewDidLoad() {
