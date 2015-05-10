@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB66180C1AFDC5FB004D6ECD /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB66180B1AFDC5FB004D6ECD /* MovieGridCell.swift */; };
+		AB6C9B241AFD9BDB000B45D9 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AB6C9B231AFD9BDB000B45D9 /* Cartfile */; };
+		AB6C9B261AFD9C05000B45D9 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6C9B251AFD9C05000B45D9 /* SVProgressHUD.framework */; };
+		AB9559581AFF1DFA002061DF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AB9559571AFF1DFA002061DF /* README.md */; };
+		AB95595A1AFF33E3002061DF /* MovieControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */; };
+		AB95595C1AFF51D0002061DF /* BaseMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */; };
 		AB9A4E081AF9A8E600F208CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E071AF9A8E600F208CA /* AppDelegate.swift */; };
-		AB9A4E0A1AF9A8E600F208CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E091AF9A8E600F208CA /* ViewController.swift */; };
+		AB9A4E0A1AF9A8E600F208CA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E091AF9A8E600F208CA /* MoviesViewController.swift */; };
 		AB9A4E0D1AF9A8E600F208CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9A4E0B1AF9A8E600F208CA /* Main.storyboard */; };
 		AB9A4E0F1AF9A8E600F208CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9A4E0E1AF9A8E600F208CA /* Images.xcassets */; };
 		AB9A4E121AF9A8E600F208CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9A4E101AF9A8E600F208CA /* LaunchScreen.xib */; };
 		AB9A4E1E1AF9A8E600F208CA /* MovieHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E1D1AF9A8E600F208CA /* MovieHubTests.swift */; };
+		AB9A4E281AF9A9BE00F208CA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AB9A4E271AF9A9BE00F208CA /* .gitignore */; };
+		AB9A4E2E1AF9D25F00F208CA /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E2D1AF9D25F00F208CA /* MovieDetailController.swift */; };
+		AB9CE53E1AFDA18300CC36B7 /* DvdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CE53D1AFDA18300CC36B7 /* DvdsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB66180B1AFDC5FB004D6ECD /* MovieGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		AB6C9B231AFD9BDB000B45D9 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AB6C9B251AFD9C05000B45D9 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		AB6C9B271AFD9D07000B45D9 /* MovieHub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieHub-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB9559571AFF1DFA002061DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieControllerHelper.swift; sourceTree = "<group>"; };
+		AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMovieCell.swift; sourceTree = "<group>"; };
 		AB9A4E021AF9A8E600F208CA /* MovieHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9A4E061AF9A8E600F208CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9A4E071AF9A8E600F208CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB9A4E091AF9A8E600F208CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB9A4E091AF9A8E600F208CA /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		AB9A4E0C1AF9A8E600F208CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB9A4E0E1AF9A8E600F208CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB9A4E111AF9A8E600F208CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB9A4E171AF9A8E600F208CA /* MovieHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9A4E1C1AF9A8E600F208CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9A4E1D1AF9A8E600F208CA /* MovieHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHubTests.swift; sourceTree = "<group>"; };
+		AB9A4E271AF9A9BE00F208CA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AB9A4E2D1AF9D25F00F208CA /* MovieDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		AB9CE53D1AFDA18300CC36B7 /* DvdsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DvdsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6C9B261AFD9C05000B45D9 /* SVProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB6C9B1D1AFD9414000B45D9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A4E2D1AF9D25F00F208CA /* MovieDetailController.swift */,
+				AB9A4E091AF9A8E600F208CA /* MoviesViewController.swift */,
+				AB9CE53D1AFDA18300CC36B7 /* DvdsViewController.swift */,
+				AB66180B1AFDC5FB004D6ECD /* MovieGridCell.swift */,
+				AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */,
+				AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		AB9A4DF91AF9A8E600F208CA = {
 			isa = PBXGroup;
 			children = (
+				AB9559571AFF1DFA002061DF /* README.md */,
+				AB6C9B251AFD9C05000B45D9 /* SVProgressHUD.framework */,
+				AB9A4E271AF9A9BE00F208CA /* .gitignore */,
+				AB6C9B231AFD9BDB000B45D9 /* Cartfile */,
 				AB9A4E041AF9A8E600F208CA /* MovieHub */,
 				AB9A4E1A1AF9A8E600F208CA /* MovieHubTests */,
 				AB9A4E031AF9A8E600F208CA /* Products */,
@@ -77,12 +114,13 @@
 		AB9A4E041AF9A8E600F208CA /* MovieHub */ = {
 			isa = PBXGroup;
 			children = (
+				AB6C9B1D1AFD9414000B45D9 /* View Controllers */,
 				AB9A4E071AF9A8E600F208CA /* AppDelegate.swift */,
-				AB9A4E091AF9A8E600F208CA /* ViewController.swift */,
 				AB9A4E0B1AF9A8E600F208CA /* Main.storyboard */,
 				AB9A4E0E1AF9A8E600F208CA /* Images.xcassets */,
 				AB9A4E101AF9A8E600F208CA /* LaunchScreen.xib */,
 				AB9A4E051AF9A8E600F208CA /* Supporting Files */,
+				AB6C9B271AFD9D07000B45D9 /* MovieHub-Bridging-Header.h */,
 			);
 			path = MovieHub;
 			sourceTree = "<group>";
@@ -122,6 +160,7 @@
 				AB9A4DFE1AF9A8E600F208CA /* Sources */,
 				AB9A4DFF1AF9A8E600F208CA /* Frameworks */,
 				AB9A4E001AF9A8E600F208CA /* Resources */,
+				AB6C9B221AFD9AEE000B45D9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,6 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6C9B241AFD9BDB000B45D9 /* Cartfile in Resources */,
+				AB9A4E281AF9A9BE00F208CA /* .gitignore in Resources */,
 				AB9A4E0D1AF9A8E600F208CA /* Main.storyboard in Resources */,
 				AB9A4E121AF9A8E600F208CA /* LaunchScreen.xib in Resources */,
 				AB9A4E0F1AF9A8E600F208CA /* Images.xcassets in Resources */,
@@ -207,13 +248,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB6C9B221AFD9AEE000B45D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB9A4DFE1AF9A8E600F208CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9A4E0A1AF9A8E600F208CA /* ViewController.swift in Sources */,
+				AB9A4E0A1AF9A8E600F208CA /* MoviesViewController.swift in Sources */,
+				AB9A4E2E1AF9D25F00F208CA /* MovieDetailController.swift in Sources */,
 				AB9A4E081AF9A8E600F208CA /* AppDelegate.swift in Sources */,
+				AB66180C1AFDC5FB004D6ECD /* MovieGridCell.swift in Sources */,
+				AB9CE53E1AFDA18300CC36B7 /* DvdsViewController.swift in Sources */,
+				AB95595C1AFF51D0002061DF /* BaseMovieCell.swift in Sources */,
+				AB9559581AFF1DFA002061DF /* README.md in Sources */,
+				AB95595A1AFF33E3002061DF /* MovieControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +404,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MovieHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieHub/MovieHub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +421,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MovieHub/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MovieHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieHub/MovieHub-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +487,7 @@
 				AB9A4E231AF9A8E600F208CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB9A4E241AF9A8E600F208CA /* Build configuration list for PBXNativeTarget "MovieHubTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +496,7 @@
 				AB9A4E261AF9A8E600F208CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
