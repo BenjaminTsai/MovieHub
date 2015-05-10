@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F41C2E79-1F21-4EAA-852F-453EAF634939</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB69C39E0EBF0F1FFCDEC5C1DD028D1252C3D943</key>
+		<string>github.com:BenjaminTsai/MovieHub.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MovieHub.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB69C39E0EBF0F1FFCDEC5C1DD028D1252C3D943</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:BenjaminTsai/MovieHub.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB69C39E0EBF0F1FFCDEC5C1DD028D1252C3D943</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB69C39E0EBF0F1FFCDEC5C1DD028D1252C3D943</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MovieHub</string>
+		</dict>
+	</array>
+</dict>
+</plist>

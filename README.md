@@ -2,7 +2,7 @@
 
 This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON) and the first assignment of Codepath's iOS bootcamp.
 
-Time spent: `8.25` hours
+Time spent: `9` hours
 
 ## Features
 
@@ -25,7 +25,8 @@ Time spent: `8.25` hours
 - [x] Add a search bar: pretty simple implementation of searching against the existing table view data.
 
 ## Walkthrough
-![Video Walkthrough]()
+![Video Walkthrough](demo.gif)
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Credits
 ---------

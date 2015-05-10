@@ -13,6 +13,8 @@
 		AB9559581AFF1DFA002061DF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AB9559571AFF1DFA002061DF /* README.md */; };
 		AB95595A1AFF33E3002061DF /* MovieControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */; };
 		AB95595C1AFF51D0002061DF /* BaseMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */; };
+		AB95595E1AFF5C2E002061DF /* MovieDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95595D1AFF5C2E002061DF /* MovieDetailCell.swift */; };
+		AB9559601AFF65DB002061DF /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB95595F1AFF65DB002061DF /* demo.gif */; };
 		AB9A4E081AF9A8E600F208CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E071AF9A8E600F208CA /* AppDelegate.swift */; };
 		AB9A4E0A1AF9A8E600F208CA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A4E091AF9A8E600F208CA /* MoviesViewController.swift */; };
 		AB9A4E0D1AF9A8E600F208CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9A4E0B1AF9A8E600F208CA /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		AB9559571AFF1DFA002061DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieControllerHelper.swift; sourceTree = "<group>"; };
 		AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMovieCell.swift; sourceTree = "<group>"; };
+		AB95595D1AFF5C2E002061DF /* MovieDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailCell.swift; sourceTree = "<group>"; };
+		AB95595F1AFF65DB002061DF /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		AB9A4E021AF9A8E600F208CA /* MovieHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9A4E061AF9A8E600F208CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9A4E071AF9A8E600F208CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				AB66180B1AFDC5FB004D6ECD /* MovieGridCell.swift */,
 				AB9559591AFF33E3002061DF /* MovieControllerHelper.swift */,
 				AB95595B1AFF51D0002061DF /* BaseMovieCell.swift */,
+				AB95595D1AFF5C2E002061DF /* MovieDetailCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AB9559571AFF1DFA002061DF /* README.md */,
+				AB95595F1AFF65DB002061DF /* demo.gif */,
 				AB6C9B251AFD9C05000B45D9 /* SVProgressHUD.framework */,
 				AB9A4E271AF9A9BE00F208CA /* .gitignore */,
 				AB6C9B231AFD9BDB000B45D9 /* Cartfile */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6C9B241AFD9BDB000B45D9 /* Cartfile in Resources */,
+				AB9559601AFF65DB002061DF /* demo.gif in Resources */,
 				AB9A4E281AF9A9BE00F208CA /* .gitignore in Resources */,
 				AB9A4E0D1AF9A8E600F208CA /* Main.storyboard in Resources */,
 				AB9A4E121AF9A8E600F208CA /* LaunchScreen.xib in Resources */,
@@ -272,6 +279,7 @@
 			files = (
 				AB9A4E0A1AF9A8E600F208CA /* MoviesViewController.swift in Sources */,
 				AB9A4E2E1AF9D25F00F208CA /* MovieDetailController.swift in Sources */,
+				AB95595E1AFF5C2E002061DF /* MovieDetailCell.swift in Sources */,
 				AB9A4E081AF9A8E600F208CA /* AppDelegate.swift in Sources */,
 				AB66180C1AFDC5FB004D6ECD /* MovieGridCell.swift in Sources */,
 				AB9CE53E1AFDA18300CC36B7 /* DvdsViewController.swift in Sources */,
