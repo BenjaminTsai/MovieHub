@@ -31,3 +31,4 @@ Credits
 ---------
 * [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)
 * [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD)
+* [NounProject](https://thenounproject.com/)
